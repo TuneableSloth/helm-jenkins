@@ -1,0 +1,28 @@
+clusterZone: "cluster.local"
+renderHelmLabels: true
+controller:
+  componentName: "jenkins-controller"
+  image: "prgbaw/myrepo"
+  tag: "jenkins"
+  imagePullPolicy: "Always"
+  numExecutors: 0
+  adminPassword: "admin"
+  resources:
+    limits:
+      cpu: "500m"
+      memory: "2048Mi"
+  securityContextCapabilities: {}
+  servicePort: 8080
+  targetPort: 8080
+  serviceType: LoadBalancer
+  agentListenerServiceType: "ClusterIP"
+  agentListenerLoadBalancerIP:
+  loadBalancerSourceRanges:
+  - 0.0.0.0/0
+ 
+persistence:
+  storageClass: "managed-nfs-storage"
+  size: "8Gi"
+  
+rbac:
+  create: true

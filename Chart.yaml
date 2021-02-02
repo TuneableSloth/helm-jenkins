@@ -1,0 +1,17 @@
+annotations:
+  artifacthub.io/links: |
+    - name: Chart Source
+      url: https://github.com/TuneableSloth/helm-jenkins/tree/main
+    - name: Jenkins
+      url: https://tuneablesloth.github.io/helm-jenkins/
+apiVersion: v2
+name: jenkins
+description: Jenkins - The leading open source automation server, provides hundreds of plugins to support building, deploying and automating any project.
+type: application
+sources:
+- https://github.com/jenkinsci/jenkins
+- https://github.com/jenkinsci/docker-inbound-agent
+- https://github.com/maorfr/kube-tasks
+- https://github.com/jenkinsci/configuration-as-code-plugin
+version: 0.0.1
+appVersion: "2.263.3"
