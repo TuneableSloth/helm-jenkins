@@ -1,0 +1,1 @@
+https://tuneablesloth.github.io/helm-jenkins/jenkins-0.0.1.tgz
