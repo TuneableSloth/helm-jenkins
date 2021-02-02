@@ -1,12 +1,10 @@
 apiVersion: v1
-entries: {
+entries:
   jenkins:
-  - apiVersion: v1
     created: "2021-02-01T23:00:01.3578155+01:00"
     description: A Helm chart for Jenkins in Kubernetes
     name: jenkins
     urls:
     - https://tuneablesloth.github.io/helm-jenkins/jenkins-0.0.1.tgz
     version: 0.0.1
-}
 generated: "2021-02-02T17:02:11.1484358+01:00"
