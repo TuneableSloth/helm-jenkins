@@ -1,10 +1,14 @@
 apiVersion: v1
 entries:
   jenkins:
-    created: "2021-02-01T23:00:01.3578155+01:00"
-    description: A Helm chart for Jenkins in Kubernetes
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-02-02T18:25:45.7213845+01:00"
+    description: A Jenkins Helm chart for Kubernetes
+    digest: 1a125bedb0220b613dca2096ca92098543664538656f692f614136aa49c84c42
     name: jenkins
+    type: application
     urls:
     - https://tuneablesloth.github.io/helm-jenkins/jenkins-0.0.1.tgz
     version: 0.0.1
-generated: "2021-02-02T17:02:11.1484358+01:00"
+generated: "2021-02-02T18:25:45.7153822+01:00"
