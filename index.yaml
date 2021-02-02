@@ -3,12 +3,12 @@ entries:
   jenkins:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-02-02T18:25:45.7213845+01:00"
+    created: "2021-02-02T18:44:17.4253634+01:00"
     description: A Jenkins Helm chart for Kubernetes
-    digest: 1a125bedb0220b613dca2096ca92098543664538656f692f614136aa49c84c42
+    digest: 5da571343e1f62dc97bd8d58a3364b82710c50644bcba762627cc163ab7abc8e
     name: jenkins
     type: application
     urls:
     - https://tuneablesloth.github.io/helm-jenkins/jenkins-0.0.1.tgz
     version: 0.0.1
-generated: "2021-02-02T18:25:45.7153822+01:00"
+generated: "2021-02-02T18:44:17.422362+01:00"
