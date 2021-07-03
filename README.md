@@ -25,7 +25,7 @@ Prerequisite:
    ```
    Refer [here](https://helm.sh/docs/intro/using_helm/) for Helm usage.
 
-The folder also contains a values.yaml which you can configure as per your requirement!
+The folder also contains a values.yaml which you can configure as per your requirement.
 
 
 ## License
